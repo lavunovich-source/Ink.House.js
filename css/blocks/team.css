@@ -1,0 +1,24 @@
+
+.team {
+   padding-bottom: 70px;
+}
+
+.team__inner {
+   display: flex;
+   gap: 30px;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.team__content {
+   margin-bottom: 45px;
+}
+
+.team__text {
+   margin: 20px 0px;
+}
+
+.team__authors {
+   display: flex;
+   gap: 30px;
+}

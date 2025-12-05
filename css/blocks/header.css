@@ -1,0 +1,64 @@
+.header {
+   background: var(--second-bg-color);
+   width: 100%;
+}
+
+.header__inner {
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+
+.header__logo {
+   margin-right: 30px;
+   white-space: nowrap;
+}
+.header__logo img {
+   margin-right: 8px;
+}
+
+.header__nav-list {
+   display: flex;
+   gap: 60px;
+   align-items: center;
+}
+
+.header__nav-item {
+   transition: all .5s;
+}
+
+.header__nav-link {
+   transition: color .5s;
+}
+.header__nav-link path {
+   transition: stroke .5s;
+}
+
+.header__nav-link:hover {
+   color: var(--green-color);
+}
+
+.header__nav-link:hover path {
+   stroke: var(--green-color);
+}
+
+.header__nav-link:focus {
+   background-color: var(--focus-bg-color);
+}
+
+.header__nav-link:focus svg {
+   background-color: var(--focus-bg-color);
+}
+
+.header__nav-link:active {
+   color: var(--active-green-color);
+   background-color: transparent;
+}
+
+.header__nav-link:active svg {
+   color: var(--active-green-color);
+   background-color: transparent;
+}
