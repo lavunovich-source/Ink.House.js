@@ -2,7 +2,7 @@ document.querySelectorAll('.catalog__input').forEach((input) => {
   input.addEventListener('change', (event) => {
     const selectedCategory = event.target.value;
     
-    document.querySelectorAll('.catalog__cell').forEach((card) => {
+    document.querySelectorAll('.cell').forEach((card) => {
       if (selectedCategory === 'All' || card.dataset.category === selectedCategory) {
         card.style.display = 'block';
       } else {
@@ -35,7 +35,7 @@ function renderNoCells() {
 
 function addCell(imgValue, authorValue, nameValue, fabricValue, costValue) {
   const cellTemplate = document.querySelector('#cell-template').content;
-  const cellElement = cellTemplate.querySelector('.catalog__cell').cloneNode(true);
+  const cellElement = cellTemplate.querySelector('.cell').cloneNode(true);
 
   cellElement.querySelector('.cell__img').src = imgValue;
   cellElement.querySelector('.cell__author').textContent = authorValue;
@@ -81,7 +81,7 @@ resetButton.addEventListener('click', function () {
 
 document.querySelector('.input__file').addEventListener('change', function() {
   const fileName = this.files[0].name;
-  document.querySelector('.file-label').innerText = fileName;
+  document.querySelector('.input__file-label').innerText = fileName;
 });
 
 document.body.addEventListener('click', function (evt) {

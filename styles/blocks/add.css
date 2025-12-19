@@ -1,0 +1,18 @@
+.add__text {
+   margin-bottom: 30px;
+}
+
+.add__no-cells_hidden {
+   display: none;
+}
+
+.add__no-cells_text {
+   margin-block: 30px;
+}
+
+.add__cells-container {
+   display: flex;
+   gap: 30px;
+   flex-direction: row-reverse;
+   align-items: flex-start;
+}

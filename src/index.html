@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="../styles/index.css">
    <title>INK.HOUSE</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
       <div class="container">
          <div class="header__inner">
             <a class="header__logo logo" href="/">
-               <img src="images/logos/logo.svg" alt="logo">
+               <img src="../images/logos/logo.svg" alt="logo">
                Ink. House
             </a>
             <nav class="header__nav">
@@ -51,18 +51,18 @@
          <div class="container">
             <div class="hero__inner">
                <div class="hero__image-box">
-                  <img src="images/Hero.jpg" alt="Hero">
+                  <img src="../images/Hero.jpg" alt="Hero">
                </div>
                <div class="hero__content">
                   <h1 class="hero__title">
-                     Реплики картин от <span>Ink. House</span>
+                     Реплики картин от <span class="hero__title-span">Ink. House</span>
                   </h1>
                   <p class="hero__subtitle">
                      Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
                   </p>
-                  <a class="hero__content-btn button" href="#catalog">
+                  <button class="hero__content-btn button" href="#catalog">
                      Продукция
-                  </a>
+                  </button>
                </div>
             </div>
          </div>
@@ -80,21 +80,21 @@
                   <ul class="catalog__nav-list">
                      <li class="catalog__nav-item">
                         <a href="#catalog" class="catalog__nav-link">
-                           <label for="All">
+                           <label class="catalog__link-label" for="All">
                               Все страны
                            </label>
                         </a>
                      </li>
                      <li class="catalog__nav-item">
                         <a href="#catalog" class="catalog__nav-link">
-                           <label for="France">
+                           <label class="catalog__link-label" for="France">
                               Франция
                            </label>
                         </a>
                      </li>
                      <li class="catalog__nav-item">
                         <a href="#catalog" class="catalog__nav-link">
-                           <label for="Germany">
+                           <label class="catalog__link-label" for="Germany">
                               Германия
                            </label>
                         </a>
@@ -103,8 +103,8 @@
                </div>
             </div>
             <ul class="catalog__content">
-               <li class="catalog__cell" data-category="France">
-                  <img class="cell__img" src="images/france/1.jpg" alt="">
+               <li class="catalog__cell cell" data-category="France">
+                  <img class="cell__img" src="../images/france/1.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Марсель Руссо</p>
                      <h3 class="cell__name">Охота Амура</h3>
@@ -113,8 +113,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="France">
-                  <img class="cell__img" src="images/france/2.jpg" alt="">
+               <li class="catalog__cell cell" data-category="France">
+                  <img class="cell__img" src="../images/france/2.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Анри Селин</p>
                      <h3 class="cell__name">Дама с собачкой</h3>
@@ -123,8 +123,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="France">
-                  <img class="cell__img" src="images/france/3.jpg" alt="">
+               <li class="catalog__cell cell" data-category="France">
+                  <img class="cell__img" src="../images/france/3.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Франсуа Дюпон</p>
                      <h3 class="cell__name">Процедура</h3>
@@ -133,8 +133,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="France">
-                  <img class="cell__img" src="images/france/4.jpg" alt="">
+               <li class="catalog__cell cell" data-category="France">
+                  <img class="cell__img" src="../images/france/4.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Луи Детуш</p>
                      <h3 class="cell__name">Роза</h3>
@@ -143,8 +143,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="France">
-                  <img class="cell__img" src="images/france/5.jpg" alt="">
+               <li class="catalog__cell cell" data-category="France">
+                  <img class="cell__img" src="../images/france/5.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Франсуа Дюпон</p>
                      <h3 class="cell__name">Птичья трапеза</h3>
@@ -153,8 +153,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="France">
-                  <img class="cell__img" src="images/france/6.jpg" alt="">
+               <li class="catalog__cell cell" data-category="France">
+                  <img class="cell__img" src="../images/france/6.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Пьер Моранж</p>
                      <h3 class="cell__name">Пейзаж с рыбой</h3>
@@ -163,8 +163,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="Germany">
-                  <img class="cell__img" src="images/germany/1.jpg" alt="">
+               <li class="catalog__cell cell" data-category="Germany">
+                  <img class="cell__img" src="../images/germany/1.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Курт Вернер</p>
                      <h3 class="cell__name">Над городом</h3>
@@ -173,8 +173,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="Germany">
-                  <img class="cell__img" src="images/germany/2.jpg" alt="">
+               <li class="catalog__cell cell" data-category="Germany">
+                  <img class="cell__img" src="../images/germany/2.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Макс Рихтер</p>
                      <h3 class="cell__name">Птенцы</h3>
@@ -183,8 +183,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="Germany">
-                  <img class="cell__img" src="images/germany/3.jpg" alt="">
+               <li class="catalog__cell cell" data-category="Germany">
+                  <img class="cell__img" src="../images/germany/3.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Мартин Майер</p>
                      <h3 class="cell__name">Среди листьев</h3>
@@ -193,8 +193,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="Germany">
-                  <img class="cell__img" src="images/germany/4.jpg" alt="">
+               <li class="catalog__cell cell" data-category="Germany">
+                  <img class="cell__img" src="../images/germany/4.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Герман Беккер</p>
                      <h3 class="cell__name">Яркая птица</h3>
@@ -203,8 +203,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="Germany">
-                  <img class="cell__img" src="images/germany/5.jpg" alt="">
+               <li class="catalog__cell cell" data-category="Germany">
+                  <img class="cell__img" src="../images/germany/5.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Вульф Бауэр</p>
                      <h3 class="cell__name">Дятлы</h3>
@@ -213,8 +213,8 @@
                   </div>
                   <a class="cell__button button" href="#">В корзину</a>
                </li>
-               <li class="catalog__cell" data-category="Germany">
-                  <img class="cell__img" src="images/germany/6.jpg" alt="">
+               <li class="catalog__cell cell" data-category="Germany">
+                  <img class="cell__img" src="../images/germany/6.jpg" alt="">
                   <div class="cell__info">
                      <p class="cell__author">Вальтер Хартманн</p>
                      <h3 class="cell__name">Большие воды</h3>
@@ -230,7 +230,7 @@
          <div class="container">
             <div class="promo__content">
                <div class="promo__title-box">
-                  <img src="images/logos/logo_2.svg" alt="">
+                  <img src="../images/logos/logo_2.svg" alt="">
                   <h2 class="promo__title title">Новая коллекция французских авторов</h2>
                </div>
                <div class="promo__text-box">
@@ -249,20 +249,20 @@
          <div class="container">
             <div class="team__inner">
                <div class="team__image">
-                  <img src="images/team_pic.jpg" alt="">
+                  <img src="../images/team_pic.jpg" alt="">
                </div>
                <div class="team__content">
                   <h2 class="team__title title">Наша команда</h2>
                   <p class="team__text text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
                   <ul class="team__authors">
                      <li class="team__author">
-                        <img src="images/team/1.jpg" alt="">
+                        <img src="../images/team/1.jpg" alt="">
                      </li>
                      <li class="team__author">
-                        <img src="images/team/2.jpg" alt="">
+                        <img src="../images/team/2.jpg" alt="">
                      </li>
                      <li class="team__author">
-                        <img src="images/team/3.jpg" alt="">
+                        <img src="../images/team/3.jpg" alt="">
                      </li>
                   </ul>
                </div>
@@ -275,13 +275,13 @@
                <h3 class="homework__title title">
                   Домашняя работа
                </h3>
-               <div class="homework__input">
+               <div class="homework__input-article">
                   <p class="homework__text text">
                      Тут вы можете добавить свои картины!
                   </p>
-                  <div class="input">
-                     <div class="custom-file-upload">
-                        <label for="file" class="file-label">
+                  <div class="homework__input input">
+                     <div class="input__custom-file-upload">
+                        <label for="file" class="input__file-label">
                               Прикрепить картину
                         </label>
                         <input type="file" id="file" accept="image/*" class="input__text input__text_type_img input__file">
@@ -298,7 +298,7 @@
                <div class="homework__add">
                   <p class="add__text text">Добавленные</p>
                   <div class="add__no-cells">
-                     <p class="no-cells__text">
+                     <p class="add__no-cells_text">
                         Нет добавленных картин
                      </p>
                   </div>
@@ -316,7 +316,7 @@
       </section>
    </main>
    <template class="template" id="cell-template">
-      <li class="catalog__cell template__cell">
+      <li class="template__cell cell">
          <button class="cell__cross"></button>
          <img class="cell__img" src="" alt="">
          <div class="cell__info">
@@ -333,7 +333,7 @@
          <div class="footer__inner">
             <div class="footer__left">
                <a class="footer__logo logo" href="/">
-                  <img src="images/logos/logo.svg" alt="logo">
+                  <img src="../images/logos/logo.svg" alt="logo">
                   Ink. House
                </a>
                <div class="footer__info">
@@ -445,7 +445,7 @@
                   </li>
                </ul>
                <div class="footer__socials-subtitle">
-                  <p>Ink. House ®</p>
+                  <p class="footer__socials-string">Ink. House ®</p>
                   <p>All rights reserved</p>
                </div>
             </div>
@@ -453,5 +453,5 @@
       </div>
    </footer>
 </body>
-   <script src="js/main.js"></script>
+   <script src="../js/main.js"></script>
 </html>

@@ -1,4 +1,5 @@
-@import 'fonts.css';
-@import 'reset.css';
-@import 'variable.css';
-@import '../styles/blocks/index.css';
+@import './fonts.css';
+@import './reset.css';
+@import './variable.css';
+@import './file.css';
+@import './blocks/index.css';

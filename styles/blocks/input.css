@@ -1,0 +1,44 @@
+.input {
+   width: 100%;
+   display: flex;
+   gap: 15px;
+}
+
+.input__custom-file-upload {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   width: 150px;
+   cursor: pointer;
+   height: 68px;
+   border: 1px solid var(--active-green-color);
+   border-radius: 5px;
+   padding-inline: 10px;
+}
+
+.input__file-label {
+   font-size: 13px;
+   cursor: pointer;
+   color: var(--active-green-color);
+}
+
+.input__file {
+   display: none;
+}
+
+.input__text {
+   max-width: 150px;
+   height: 68px;
+   border: 1px solid var(--active-green-color);
+   border-radius: 5px;
+   padding-inline: 10px;
+}
+
+.input__submit {
+   margin-top: 30px;
+}
+
+.input__btn_disabled {
+   display: none;
+}

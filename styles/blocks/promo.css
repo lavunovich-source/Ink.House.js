@@ -5,11 +5,11 @@
    background-size: cover;
    background-position: right;
    color: var(--accent-bg-color);
-   margin: 70px 0px;
+   margin-block: 70px;
 }
 
 .promo__content {
-   padding: 70px 0px;
+   padding-block: 70px;
    max-width: 550px;
    display: flex;
    flex-direction: column;
@@ -32,25 +32,41 @@
 
 .promo__btn {
    margin-top: 60px;
-   background-color: #EEDB6D;
+   background-color: var(--promo-btn-bg-color);
    color: var(--text-color);
-   border: none;
+   border: 1px solid var(--promo-btn-bg-color);
    transition: all .5s;
 }
 
 .promo__btn:hover {
-   background-color: #FAEB97;
+   background-color: var(--promo-btn-bg-color-hover);
    color: var(--text-color);
+   border: 1px solid var(--promo-btn-bg-color-hover);
 }
 
 .promo__btn:focus {
-   background-color: #FAEB97;
-   border: 1px solid #A38314;
+   background-color: var(--promo-btn-bg-color-hover);
+   border: 1px solid var(--promo-btn-border-focus);
    color: var(--text-color);
 }
 
 .promo__btn:active {
-   background-color: #D9B949;
+   background-color: var(--promo-btn-bg-color-active);
    color: var(--text-color);
-   border: none;
+   border: 1px solid var(--promo-btn-bg-color-active);
+}
+
+@media (max-width: 768px) {
+   .promo__title {
+      font-size: 30px;
+   }
+}
+
+@media (max-width: 600px) {
+   .promo__title {
+      font-size: 24px;
+   }
+   .promo__text {
+      font-size: 16px;
+   }
 }

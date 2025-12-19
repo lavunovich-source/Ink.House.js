@@ -12,7 +12,7 @@
    margin-bottom: 20px;
 }
 
-.hero__title span {
+.hero__title-span {
    color: var(--green-color);
 }
 
@@ -21,4 +21,36 @@
    line-height: 150%;
    color: var(--gray-color);
    margin-bottom: 60px;
+}
+
+@media (max-width: 1000px) {
+   .hero__image-box img {
+      max-width: 100%;
+      object-fit: cover;
+   }
+}
+
+@media (max-width: 768px) {
+   .hero__inner {
+      margin-top: 20px;
+   }
+   .hero__title {
+      font-size: 40px;
+   }
+   .hero__subtitle {
+      margin-bottom: 40px;
+   }
+}
+
+@media (max-width: 600px) {
+   .hero__inner {
+      margin-top: 20px;
+   }
+   .hero__title {
+      font-size: 36px;
+   }
+   .hero__subtitle {
+      font-size: 16px;
+      margin-block: 15px;
+   }
 }

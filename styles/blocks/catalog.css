@@ -28,13 +28,13 @@
    text-wrap: nowrap;
 }
 
-.catalog__nav-link label {
+.catalog__link-label {
    cursor: pointer;
 }
 
 .catalog__nav-link:hover {
    background-color: var(--green-color);
-   color: #F4F6F5;
+   color: var(--catalog-link-hover-active);
 }
 
 .catalog__nav-link:focus {
@@ -44,7 +44,7 @@
 }
 
 .catalog__nav-link:active {
-   color: #F4F6F5;
+   color: var(--catalog-link-hover-active);
    background-color: var(--active-green-color);
    border: none;
 }
@@ -55,42 +55,54 @@
    gap: 30px;
 }
 
-.catalog__cell {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   background: var(--second-bg-color);
-   padding: 20px;
+@media (max-width: 1000px) {
+   .catalog__content {
+      grid-template-columns: 1fr 1fr;
+   }
 }
 
-.cell__img {
-   width: 100%;
-   object-fit: cover;
+@media (max-width: 768px) {
+   .catalog__title {
+      font-size: 30px;
+   }
+   .catalog__top {
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 40px;
+   }
 }
 
-.cell__author {
-   font-size: 18px;
-   color: var(--gray-color);
-   margin-top: 20px;
+@media (max-width: 640px) {
+   .cell__author {
+      font-size: 16px;
+   }
+   .cell__name {
+      font-size: 24px;
+   }
+   .cell__fabric {
+      font-size: 16px;
+   }
+   .cell__cost {
+      font-size: 20px;
+   }
 }
 
-.cell__name {
-   font-size: 30px;
-   margin: 10px 0px 8px;
+@media (max-width: 600px) {
+   .catalog__nav-list {
+      gap: 20px;
+   }
 }
 
-.cell__fabric {
-   font-size: 18px;
-}
-
-.cell__cost {
-   color: var(--green-color);
-   font-size: 24px;
-   margin: 30px 0px 20px;
-}
-
-.cell__button {
-   display: block;
-   width: 100%;
-   text-align: center;
+@media (max-width: 480px) {
+   .catalog__nav-list {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+   }
+   .catalog__nav-item {
+      margin-bottom: 15px;
+   }
+   .catalog__nav-item:last-child {
+      margin-bottom: 0px;
+   }
 }
