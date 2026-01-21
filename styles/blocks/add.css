@@ -12,7 +12,11 @@
 
 .add__cells-container {
    display: flex;
+   flex-wrap: wrap;
    gap: 30px;
-   flex-direction: row-reverse;
+   /* flex-direction: row-reverse; */
    align-items: flex-start;
+   /* display: grid; */
+   /* grid-template-columns: 1fr 1fr 1fr; */
+   /* gap: 30px; */
 }

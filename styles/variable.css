@@ -2,6 +2,7 @@
    --text-color: #2C2D35;
    --green-color: #598D66;
    --gray-color: #86928B;
+   --white-color: #fff;
    --accent-bg-color: #fff;
    --second-bg-color: #E1EDE6;
    --focus-bg-color: #D4E8D9;
@@ -12,5 +13,6 @@
    --promo-btn-border-focus: #A38314;
    --promo-btn-bg-color-active: #D9B949;
    --dividing-line: #C3D1C6;
+   --overlay: rgb(0 0 0 / 0.8);
 
 }

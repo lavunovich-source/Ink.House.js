@@ -275,41 +275,49 @@
                <h3 class="homework__title title">
                   Домашняя работа
                </h3>
-               <div class="homework__input-article">
-                  <p class="homework__text text">
-                     Тут вы можете добавить свои картины!
-                  </p>
-                  <div class="homework__input input">
-                     <div class="input__custom-file-upload">
-                        <label for="file" class="input__file-label">
-                              Прикрепить картину
-                        </label>
-                        <input type="file" id="file" accept="image/*" class="input__text input__text_type_img input__file">
+               <div class="homework__content">
+                  <div class="homework__acc">
+                     <div class="homework__acc-img">
+                        <img src="../images/team/1.jpg" alt="">
                      </div>
-                     <input type="text" placeholder="Автор" class="input__text input__text_type_author">
-                     <input type="text" placeholder="Название" class="input__text input__text_type_name">
-                     <input type="text" placeholder="Материалы" class="input__text input__text_type_fabric">
-                     <input type="text" placeholder="Цена" class="input__text input__text_type_cost">
-                     <button class="input__btn input__btn_action_add button">
-                        Добавить
+                     <div class="homework__acc-info">
+                        <h3 class="homework__acc-author title">
+                           Жанна Д'арк
+                        </h3>
+                        <p class="homework__acc-job homework__text text">
+                           Женщина
+                        </p>
+                     </div>
+                     <div class="homework__edit-btn_box">
+                        <button class="homework__btn openDialogBtn" type="button" aria-haspopup="dialog" aria-controls="editDialog">
+                           <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M21.2799 6.40005L11.7399 15.94C10.7899 16.89 7.96987 17.33 7.33987 16.7C6.70987 16.07 7.13987 13.25 8.08987 12.3L17.6399 2.75002C17.8754 2.49308 18.1605 2.28654 18.4781 2.14284C18.7956 1.99914 19.139 1.92124 19.4875 1.9139C19.8359 1.90657 20.1823 1.96991 20.5056 2.10012C20.8289 2.23033 21.1225 2.42473 21.3686 2.67153C21.6147 2.91833 21.8083 3.21243 21.9376 3.53609C22.0669 3.85976 22.1294 4.20626 22.1211 4.55471C22.1128 4.90316 22.0339 5.24635 21.8894 5.5635C21.7448 5.88065 21.5375 6.16524 21.2799 6.40005V6.40005Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11 4H6C4.93913 4 3.92178 4.42142 3.17163 5.17157C2.42149 5.92172 2 6.93913 2 8V18C2 19.0609 2.42149 20.0783 3.17163 20.8284C3.92178 21.5786 4.93913 22 6 22H17C19.21 22 20 20.2 20 18V13" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="homework__add-btn_box">
+                     <button class="homework__btn openDialogBtn" type="button" aria-haspopup="dialog" aria-controls="addDialog">
+                        <svg width="40px" height="40px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 328.911 328.911" style="enable-background:new 0 0 328.911 328.911;" xml:space="preserve"><g><g><path d="M310.199,18.71C297.735,6.242,282.65,0.007,264.951,0.007H63.954c-17.703,0-32.79,6.235-45.253,18.704 C6.235,31.177,0,46.261,0,63.96v200.991c0,17.515,6.232,32.552,18.701,45.11c12.467,12.566,27.553,18.843,45.253,18.843h201.004 c17.699,0,32.777-6.276,45.248-18.843c12.47-12.559,18.705-27.596,18.705-45.11V63.96 C328.911,46.261,322.666,31.177,310.199,18.71z M292.362,264.96c0,7.614-2.673,14.089-8.001,19.414 c-5.324,5.332-11.799,7.994-19.41,7.994H63.954c-7.614,0-14.082-2.662-19.414-7.994c-5.33-5.325-7.992-11.8-7.992-19.414V63.965 c0-7.613,2.662-14.086,7.992-19.414c5.327-5.327,11.8-7.994,19.414-7.994h201.004c7.61,0,14.086,2.663,19.41,7.994 c5.325,5.328,7.994,11.801,7.994,19.414V264.96z"></path><path d="M246.683,146.189H182.73V82.236c0-2.667-0.855-4.854-2.573-6.567c-1.704-1.714-3.895-2.568-6.564-2.568h-18.271 c-2.667,0-4.854,0.854-6.567,2.568c-1.714,1.713-2.568,3.903-2.568,6.567v63.954H82.233c-2.664,0-4.857,0.855-6.567,2.568 c-1.711,1.713-2.568,3.903-2.568,6.567v18.271c0,2.666,0.854,4.855,2.568,6.563c1.712,1.708,3.903,2.57,6.567,2.57h63.954v63.953 c0,2.666,0.854,4.855,2.568,6.563c1.713,1.711,3.903,2.566,6.567,2.566h18.271c2.67,0,4.86-0.855,6.564-2.566 c1.718-1.708,2.573-3.897,2.573-6.563V182.73h63.953c2.662,0,4.853-0.862,6.563-2.57c1.712-1.708,2.563-3.897,2.563-6.563v-18.271 c0-2.664-0.852-4.857-2.563-6.567C251.536,147.048,249.345,146.189,246.683,146.189z"></path></g></g></svg>
                      </button>
                   </div>
                </div>
                <div class="homework__add">
                   <p class="add__text text">Добавленные</p>
-                  <div class="add__no-cells">
+                  <!-- <div class="add__no-cells">
                      <p class="add__no-cells_text">
                         Нет добавленных картин
                      </p>
-                  </div>
+                  </div> -->
                   <div class="add__cells-container">
 
                   </div>
-                  <div class="input__submit">
+                  <!-- <div class="input__submit">
                      <button class="input__btn button input__btn_action_reset input__btn_disabled" disabled>
                         Удалить все картины
                      </button>
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>
@@ -318,7 +326,9 @@
    <template class="template" id="cell-template">
       <li class="template__cell cell">
          <button class="cell__cross"></button>
-         <img class="cell__img" src="" alt="">
+         <div class="cell__img-box">
+            <img class="cell__img" src="" alt="">
+         </div>
          <div class="cell__info">
             <p class="cell__author"></p>
             <h3 class="cell__name"></h3>
@@ -452,6 +462,52 @@
          </div>
       </div>
    </footer>
+   <dialog class="dialog__edit-acc dialog" id="editDialog">
+      <div class="dialog__wrapper-edit">
+         <button class="dialog__cross dialog__cross-edit cell__cross closeDialogBtn"></button>
+         <form action="" name="edit">
+            <div class="form__wrapper">
+               <h3>Редактировать профиль</h3>
+               <input type="text" name="profileName" placeholder="Имя профиля" class="input__text input__text_type_profileName">
+               <input type="text" name="job" placeholder="Должность" class="input__text input__text_type_position">
+               <button disabled class="input__btn input__btn_action_add input__btn_disabled closeDialogBtn button">
+                  Сохранить
+               </button>
+            </div>
+         </form>
+      </div>
+   </dialog>
+   <dialog class="dialog__big-img dialog" id="imgDialog">
+      <div class="dialog__wrapper-img">
+         <button class="dialog__cross cell__cross dialog__cross-img closeDialogBtn"></button>
+         <img class="dialog__img" src="" alt="">
+         <p class="dialog__img-name"></p>
+      </div>
+   </dialog>
+   <dialog class="dialog__add-picture dialog" id="addDialog">
+      <div class="dialog__wrapper dialog__wrapper-add">
+         <button class="dialog__cross dialog__cross-add cell__cross closeDialogBtn"></button>
+         <div class="homework__input-article">
+            <h3 class="homework__text text">
+               Добавьте картину
+            </h3>
+            <div class="homework__input input">
+               <form action="" name="add">
+                  <div class="form__wrapper">
+                     <input type="text" name="img" placeholder="url" class="input__text input__text_type_img">
+                     <input type="text" name="author" placeholder="Автор" class="input__text input__text_type_author">
+                     <input type="text" name="name" placeholder="Название" class="input__text input__text_type_name">
+                     <input type="text" name="fabric" placeholder="Материалы" class="input__text input__text_type_fabric">
+                     <input type="text" name="cost" placeholder="Цена" class="input__text input__text_type_cost">
+                     <button disabled class="input__btn input__btn_action_add input__btn_disabled button closeDialogBtn">
+                        Добавить
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>   
+      </div>
+   </dialog>
 </body>
    <script src="../js/main.js"></script>
 </html>

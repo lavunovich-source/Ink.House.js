@@ -3,6 +3,7 @@ html, body {
    font-weight: 500;
    font-size: 20px;
    color: var(--text-color);
+   scrollbar-gutter: stable;
 }
 
 .container {

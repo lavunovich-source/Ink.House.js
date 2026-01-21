@@ -1,5 +1,6 @@
 .template__cell {
    position: relative;
    max-width: 350px;
+   /* height: 680px; */
    padding: 20px 20px 60px 20px;
 }
