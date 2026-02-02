@@ -1,0 +1,178 @@
+.homework {
+   padding-bottom: 50px;
+   background-color: var(--catalog-link-hover-active);
+}
+
+.homework__inner {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 30px;
+}
+
+.homework__title {
+   margin-block: 30px;
+   margin-inline: auto;
+   text-align: center;
+}
+
+.homework__content {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.homework__acc {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+.homework__acc-img img {
+   border-radius: 50%;
+}
+
+.homework__acc-info {
+   display: flex;
+   flex-direction: column;
+}
+.homework__text {
+   margin-bottom: 10px;
+}
+
+.homework__edit-btn_box {
+
+}
+
+.dialog {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   /* padding: 15px; */
+   transform: translate(-50%, -50%);
+   border: none;
+   color: #000000;
+   text-align: center;
+}
+.dialog__edit-acc {
+   height: 435px;
+   width: 415px;
+   background-color: rgb(0 0 0 / 0.01);
+}
+
+.dialog__big-img {
+   width: 400px;
+   height: 512px;
+
+   /* padding: 35px; */
+   background-color: rgb(0 0 0 / 0.01);
+}
+
+.dialog__add-picture {
+   height: 545px;
+   width: 395px;
+   background-color: rgb(0 0 0 / 0.01);
+}
+
+.dialog__wrapper-add {
+   max-height: 500px;
+   width: 350px;
+   margin: 45px 45px 0 0;
+   padding: 15px;
+   position: relative;
+   background-color: var(--accent-bg-color);
+}
+
+.dialog__img {
+   width: 310px;
+   height: 422px;
+   object-fit: cover;
+}
+
+.dialog::backdrop {
+   background-color: var(--overlay);
+}
+
+.dialog__wrapper-edit {
+   width: 325px;
+   max-height: 375px;
+   margin: 45px;
+   position: relative;
+   background-color: var(--accent-bg-color);
+   padding: 30px;
+   
+}
+
+.dialog__wrapper-img {
+   width: 310px;
+   max-height: 422px;
+   margin: 45px;
+   position: relative;
+   /* padding: 25px; */
+}
+
+.scroll-lock {
+   overflow: hidden;
+}
+
+.homework__input {
+
+}
+
+.form__wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
+   /* display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px; */
+}
+
+.dialog__cross {
+   background: url(../../images/icons/white-circle-icon.png) center no-repeat;
+   background-size: 100%;
+   cursor: pointer;
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top: 5%;
+   right: 15%;
+   transform: translateX(50%);
+   transition: 0.3s;
+}
+
+.dialog__cross-edit {
+   top: -40px;
+   right: -20px;
+}
+
+.dialog__cross-add {
+   top: -40px;
+   right: -20px;
+}
+
+.dialog__cross:hover {
+   transform: scale(1.1) translateX(50%);
+}
+
+.dialog__cross-img {
+   top: -40px;
+   right: -20px;
+}
+
+.dialog__img-name {
+   color: var(--accent-bg-color);
+   /* color: red; */
+   position: absolute;
+   bottom: -25px;
+   left: 0;
+}
+
+
+
+
+
+
